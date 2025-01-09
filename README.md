@@ -1,6 +1,6 @@
 # Hi, I'm Harshit Khandelwal 👾
 
-I'm a passionate game developer with a love for creating engaging and interactive experiences. I specialize in developing games using Unity. My expertise is mostly in coding and debugging problems.
+I'm a passionate game developer with a love for creating engaging and interactive experiences. I have over 4+ years of Industry experience and I specialize in developing games using Unity. My expertise is mostly in coding and debugging problems.
 
 ## 🎮 About Me
 - 💻 I work with C# and Unity Engine.
