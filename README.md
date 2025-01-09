@@ -29,4 +29,4 @@ I'm a passionate game developer with a love for creating engaging and interactiv
 - I love playing Action-Adventure story based games.
 - When I'm not coding, you can find me watching anime or reading manga/manhwa.
 
-Thanks for checking out my profile! Feel free to explore my projects and reach out if you'd like to collaborate.
+Thanks for checking out my profile! Feel free to explore my projects..
