@@ -1,16 +1,16 @@
-# Hi, I'm [Your Name] 👾
+# Hi, I'm Harshit Khandelwal 👾
 
-I'm a passionate game developer with a love for creating engaging and interactive experiences. I specialize in developing games using [Unity/Unreal Engine/Godot/Other]. My expertise ranges from coding to design and everything in between.
+I'm a passionate game developer with a love for creating engaging and interactive experiences. I specialize in developing games using Unity. My expertise is mostly in coding and debugging problems.
 
 ## 🎮 About Me
-- 💻 I work with [C# and Unity Engine.]
+- 💻 I work with C# and Unity Engine.
 - 🚀 I am currently working on Krypto Klash, a Shooting game.
 - 🎓 I'm constantly learning new techniques to improve my skills in game development and programming.
 
 ## 🔧 Technologies & Tools
 - **Languages**: [C#]
 - **Engines**: [Unity Engine]
-- **Tools**: [Visual Studio.]
+- **Tools**: [Visual Studio]
 - **Version Control**: [Git, Source tree, Github Desktop.]
 
 ## 📂 Some of My Projects
@@ -18,7 +18,7 @@ I'm a passionate game developer with a love for creating engaging and interactiv
 
 ## 📣 Let's Connect
 - 🌐 [Portfolio/Website] https://hk6848.wixsite.com/portfolio
-- 🐦 [Twitter] 
+- 🐦 [Twitter] https://x.com/iharshit17
 - 💬 [LinkedIn] https://www.linkedin.com/in/iharshit17/
 - 📧 [Email] hk6848@gmail.com
 
