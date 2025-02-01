@@ -15,6 +15,9 @@ I'm a passionate game developer with a love for creating engaging and interactiv
 
 ## 📂 Some of My Projects
 - [Custom Native Web Plugin](https://github.com/BlackSamael/Custom-Native-Web-Plugin): This is Webview plugin to access native web browser in Android and iOS.
+- [Concerto-XL](https://hk6848.wixsite.com/portfolio/portfolio-collections/my-portfolio/concerto-xl): Concerto-XL is a virtual concert platform that allows users to watch music band shows, add friends, and communicate with them in real time.
+- [Ridge Valley](https://hk6848.wixsite.com/portfolio/portfolio-collections/my-portfolio/ridge-valley): Ridge Valley is a Web3 version of Hill Climb Racing and integrated a custom-made unity plugin for connecting the TRIKON Web3 wallet.
+- [Krypto Klash](https://hk6848.wixsite.com/portfolio/portfolio-collections/my-portfolio/krypto-klash): Web3-Based Third-Person Shooter Game.
 
 ## 📣 Let's Connect
 - 🌐 [Portfolio/Website] https://hk6848.wixsite.com/portfolio
