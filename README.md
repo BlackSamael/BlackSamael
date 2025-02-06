@@ -4,7 +4,6 @@ I'm a passionate game developer with a love for creating engaging and interactiv
 
 ## 🎮 About Me
 - 💻 I work with C# and Unity Engine.
-- 🚀 I am currently working on Krypto Klash, a Shooting game.
 - 🎓 I'm constantly learning new techniques to improve my skills in game development and programming.
 
 ## 🔧 Technologies & Tools
