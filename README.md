@@ -4,7 +4,7 @@ I'm a full-cycle Unity Game Developer with **6+ years of experience**, taking mo
 
 I'm seeking Unity game development opportunities with a mobile gaming team, bringing end-to-end ownership across gameplay, real-time multiplayer, native iOS/Android plugins, backend integration, optimization, and deployment.
 
-[View my portfolio](https://blacksamael.github.io/BlackSamael/) · [Download my résumé](Assets/Resume.pdf) · [Contact me](mailto:hk6848@gmail.com)
+[View my portfolio](https://blacksamael.github.io/BlackSamael/) · [Download my résumé](Assets/Harshit_Khandelwal_Resume.pdf) · [Contact me](mailto:hk6848@gmail.com)
 
 ## 🎮 About Me
 - 💻 I build casual and multiplayer games with C# and Unity, including experiences for up to 20 concurrent users.
