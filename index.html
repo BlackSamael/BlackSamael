@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harshit Khandelwal | Unity Game Developer</title>
+    <meta name="description" content="Harshit Khandelwal — Unity Game Developer with 6+ years of experience, 3 shipped mobile titles with 100K+ Google Play installs, and expertise in multiplayer systems, native plugins, and mobile optimization. Open to Unity roles.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -26,6 +27,8 @@
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
+        section { scroll-margin-top: 90px; }
+        a:focus-visible { outline: 2px solid var(--gold); outline-offset: 5px; }
 
         body {
             background: var(--bg);
@@ -76,6 +79,7 @@
             overflow: hidden;
         }
         .hero-grid-bg {
+            pointer-events: none;
             position: absolute; inset: 0;
             background-image:
                 linear-gradient(rgba(124,106,245,0.04) 1px, transparent 1px),
@@ -84,6 +88,7 @@
             mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 70%);
         }
         .hero-orb {
+            pointer-events: none;
             position: absolute; top: 15%; right: 5%;
             width: 480px; height: 480px; border-radius: 50%;
             background: radial-gradient(circle, rgba(124,106,245,0.12) 0%, transparent 70%);
@@ -127,7 +132,7 @@
         }
 
         .hero-stats {
-            display: flex; gap: 3rem;
+            display: flex; gap: 3rem; flex-wrap: wrap;
             margin-bottom: 2.8rem;
             animation: fade-up 0.8s 0.4s ease both;
         }
@@ -431,6 +436,11 @@
             .hero-orb { width: 280px; height: 280px; }
             footer { padding: 1.5rem; }
         }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { animation: none !important; transition: none !important; }
+            .reveal { opacity: 1; transform: none; }
+        }
     </style>
 </head>
 <body>
@@ -452,31 +462,35 @@
         <div class="hero-orb"></div>
         <div class="hero-eyebrow">Unity Game Developer · Mobile · Multiplayer · Web3</div>
         <h1 class="hero-name">Harshit<br><span>Khandelwal</span></h1>
-        <p class="hero-title">Building Games People Play</p>
+        <p class="hero-title">Open to Unity Game Developer Roles</p>
         <p class="hero-bio">
-            Full-cycle Unity developer with 5+ years taking mobile games from concept to live product.
-            Shipped titles with 10K–50K+ Play Store installs. Deep expertise in real-time multiplayer,
-            native iOS/Android plugins, Web3 integration, and squeezing 60 FPS out of low-end hardware.
+            Full-cycle Unity developer with 6+ years taking mobile games from concept to live product.
+            Co-developed and shipped 3 mobile titles — IMHO, Word Meadows, and Ace Maze (previously Arrows Go) — with 100K+ Google Play installs.
+            I build casual and multiplayer gameplay, native iOS/Android plugins, and Web3 integrations,
+            with hands-on ownership of backend services, mobile optimization, and deployment.
         </p>
         <div class="hero-stats">
             <div class="stat-item">
-                <div class="stat-num">5+</div>
+                <div class="stat-num">6+</div>
                 <div class="stat-label">Years Experience</div>
             </div>
             <div class="stat-item">
-                <div class="stat-num">5+</div>
+                <div class="stat-num">3</div>
                 <div class="stat-label">Shipped Titles</div>
             </div>
             <div class="stat-item">
-                <div class="stat-num">50K+</div>
-                <div class="stat-label">Play Store Installs</div>
+                <div class="stat-num">100K+</div>
+                <div class="stat-label">Google Play Installs</div>
             </div>
             <div class="stat-item">
-                <div class="stat-num">98%</div>
-                <div class="stat-label">Crash-Free Rate</div>
+                <div class="stat-num">Up to 20</div>
+                <div class="stat-label">Concurrent Multiplayer Users</div>
             </div>
         </div>
         <div class="hero-cta">
+            <a href="Assets/Resume.pdf" class="btn-primary" download>
+                <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download Resume
+            </a>
             <a href="https://www.linkedin.com/in/iharshit17/" class="btn-primary" target="_blank">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
@@ -500,52 +514,62 @@
                 <div class="stack-card reveal">
                     <i class="fa-brands fa-unity"></i>
                     <h3>Unity Engine</h3>
-                    <p>2D · 3D · HDRP</p>
+                    <p>2D · 3D · HDRP · Addressables · Editor Scripting · DOTween</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-code"></i>
                     <h3>C# / OOP</h3>
-                    <p>SOLID · Design Patterns</p>
+                    <p>OOP · SOLID Principles</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-brands fa-android"></i>
                     <h3>Native Plugins</h3>
-                    <p>Java · ObjC · Kotlin</p>
+                    <p>C# · Java · Objective-C Bridging</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-network-wired"></i>
                     <h3>Multiplayer</h3>
-                    <p>Photon · Socket.IO</p>
+                    <p>Photon PUN · Socket.IO · Vivox Voice Chat</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-cube"></i>
                     <h3>Web3</h3>
-                    <p>Polygon · NFT · ERC-20</p>
+                    <p>Polygon · Custom Plugins · NFT Systems</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-fire"></i>
                     <h3>Backend</h3>
-                    <p>Firebase · REST APIs</p>
+                    <p>Firebase · REST APIs · Social Login · In-App Purchases</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-chart-line"></i>
                     <h3>Monetization</h3>
-                    <p>AdMob · AppLovin</p>
+                    <p>AdMob · AppLovin · AppsFlyer</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-vial"></i>
                     <h3>Testing</h3>
-                    <p>NSubstitute · Zenject</p>
+                    <p>Unity Test Runner · NSubstitute · Zenject · Debugging · Profiling</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-solid fa-robot"></i>
-                    <h3>AI Tooling</h3>
-                    <p>Copilot · Gemini · GPT</p>
+                    <h3>AI Tools</h3>
+                    <p>GitHub Copilot · Gemini · ChatGPT Codex</p>
                 </div>
                 <div class="stack-card reveal">
                     <i class="fa-brands fa-git-alt"></i>
                     <h3>Version Control</h3>
-                    <p>Git · GitHub</p>
+                    <p>Git</p>
+                </div>
+                <div class="stack-card reveal">
+                    <i class="fa-solid fa-person-running" aria-hidden="true"></i>
+                    <h3>Animation &amp; Characters</h3>
+                    <p>Animation Rigging · Character Customization</p>
+                </div>
+                <div class="stack-card reveal">
+                    <i class="fa-solid fa-mobile-screen" aria-hidden="true"></i>
+                    <h3>Platforms</h3>
+                    <p>Android · iOS · Google Play Deployment</p>
                 </div>
             </div>
         </div>
@@ -563,42 +587,46 @@
                 <div class="exp-item reveal">
                     <div class="exp-meta">
                         <span class="exp-company">Vapronix Web Pvt Ltd</span>
-                        <span class="exp-period">2025 – Present</span>
+                        <span class="exp-period">Feb 2025 – Present</span>
                     </div>
                     <div class="exp-role">Unity Game Developer</div>
                     <ul class="exp-highlights">
-                        <li>Co-developed and shipped <strong>3 mobile titles</strong> (IMHO, Word Meadows, Arrows Go) achieving <strong>10K–50K combined installs</strong> on Google Play.</li>
-                        <li>Engineered grid-based crossword algorithms and physics-driven puzzle mechanics with optimized 60 FPS performance on low-end devices.</li>
+                        <li>Co-developed and shipped <strong>3 mobile titles</strong> (IMHO, Word Meadows, and Ace Maze, previously Arrows Go) achieving <strong>100K+ Google Play installs</strong>.</li>
+                        <li>Engineered grid-based crossword algorithms and physics-driven puzzle mechanics as an <strong>equal contributor alongside one other Unity developer</strong>.</li>
+                        <li>Integrated anonymous messaging protocols and real-time social features into IMHO.</li>
                         <li>Built <strong>custom native plugins for iOS (ObjC) &amp; Android (Java)</strong> for direct Snapchat image sharing — zero third-party SDK dependency.</li>
                         <li>Integrated AdMob, AppLovin, and AppsFlyer for ad monetization and user attribution.</li>
-                        <li>Resolved threading &amp; memory leaks leading to <strong>90% reduction in ANRs</strong>; maintained a crash-free rate over 98%.</li>
+                        <li>Optimized C# scripts, reduced draw calls, and profiled memory usage for stable frame rates across Android and iOS devices.</li>
+                        <li>Used GitHub Copilot, Gemini, and ChatGPT Codex to automate boilerplate scripting and accelerate iteration.</li>
                     </ul>
                 </div>
 
                 <div class="exp-item reveal">
                     <div class="exp-meta">
                         <span class="exp-company">TRIKON Ecosystem LLP</span>
-                        <span class="exp-period">2023 – 2025</span>
+                        <span class="exp-period">Dec 2023 – Feb 2025</span>
                     </div>
                     <div class="exp-role">Senior Unity Developer</div>
                     <ul class="exp-highlights">
-                        <li>Architected a <strong>custom Unity plugin for Polygon blockchain</strong> (Web3) wallet integration enabling seamless in-game transactions.</li>
-                        <li>Built Ridge Valley — a Web3 driving game with NFT wardrobe systems and ERC-20 token-earning mechanics, cross-platform on Web, Android &amp; iOS.</li>
-                        <li>Developed Krypto Klash, a Web3-based third-person shooter with NFT-driven wardrobe and play-to-earn mechanics.</li>
+                        <li>Architected and published a <strong>custom Unity plugin for Polygon blockchain</strong> wallet integration, enabling in-game transactions.</li>
+                        <li>Built Ridge Valley, a Web3-enabled 3D driving game inspired by Hill Climb Racing, with NFT-driven wardrobe systems and token-earning mechanics.</li>
+                        <li>Developed a Web3-based third-person shooter with custom Polygon integration for in-game asset ownership and transactions.</li>
                     </ul>
                 </div>
 
                 <div class="exp-item reveal">
                     <div class="exp-meta">
-                        <span class="exp-company">Deftsoft Informatics Pvt Ltd</span>
-                        <span class="exp-period">2020 – 2023</span>
+                        <span class="exp-company">Deftsoft Informatics Private Ltd.</span>
+                        <span class="exp-period">Aug 2020 – Dec 2023</span>
                     </div>
                     <div class="exp-role">Unity Game Developer</div>
                     <ul class="exp-highlights">
                         <li>Built real-time multiplayer experiences supporting <strong>up to 20 concurrent users</strong> using Photon and Socket.IO across Ludo and casino-style games.</li>
                         <li>Developed 2D/3D systems with SOLID principles, HDRP rendering, and custom Shader Graphs for enhanced visual fidelity.</li>
                         <li>Integrated Firebase, REST APIs, in-app purchases, social logins, and Addressables for optimized asset loading.</li>
+                        <li>Implemented unit testing using <strong>Unity Test Runner, NSubstitute, and Zenject</strong>.</li>
                         <li><strong>Mentored junior developers</strong> via code reviews and pair programming, improving team delivery speed.</li>
+                        <li>Managed Git source control and collaborative workflows across teams of 2–5 developers.</li>
                     </ul>
                 </div>
 
@@ -615,12 +643,12 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
 
-                <!-- Arrows Go -->
+                <!-- Ace Maze (previously Arrows Go) -->
                 <div class="project-card reveal">
                     <div class="project-thumb">
                         <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a1040, #3b2a8a);"></div>
                         <div class="project-thumb-overlay"></div>
-                        <div class="project-thumb-text">ARROWS GO</div>
+                        <div class="project-thumb-text">ACE MAZE</div>
                     </div>
                     <div class="project-body">
                         <div class="project-tags">
@@ -628,8 +656,8 @@
                             <span class="tag">Physics</span>
                             <span class="tag gold">Published</span>
                         </div>
-                        <div class="project-title">Arrows Go</div>
-                        <p class="project-desc">Physics-based arrow puzzle game with 1:1 input accuracy, scalable game state architecture, and consistent 60 FPS on low-end Android devices. Reduced ANRs by 90%.</p>
+                        <div class="project-title">Ace Maze</div>
+                        <p class="project-desc">Previously Arrows Go. Co-developed and shipped this mobile puzzle title as part of a two-developer Unity team. Contributed physics-driven puzzle mechanics alongside mobile profiling, optimization, and monetization integration.</p>
                         <div class="project-links">
                             <a href="https://play.google.com/store/apps/details?id=arrows.puzzle.escape.maze.out.arrowscapes" class="project-link" target="_blank">
                                 <i class="fa-brands fa-google-play"></i> Play Store
@@ -652,7 +680,7 @@
                             <span class="tag gold">Published</span>
                         </div>
                         <div class="project-title">IMHO</div>
-                        <p class="project-desc">Anonymous social platform with real-time features and custom native iOS/Android plugins for Snapchat sharing — built without any third-party SDK.</p>
+                        <p class="project-desc">Co-developed and shipped an anonymous social application with messaging and real-time social features. Built custom Objective-C and Java plugins for direct Snapchat image sharing without a third-party sharing SDK.</p>
                         <div class="project-links">
                             <a href="https://play.google.com/store/apps/details?id=cool.imho.sharechatconnect.android" class="project-link" target="_blank">
                                 <i class="fa-brands fa-google-play"></i> Play Store
@@ -675,7 +703,7 @@
                             <span class="tag gold">Published</span>
                         </div>
                         <div class="project-title">Word Meadows</div>
-                        <p class="project-desc">Dynamic crossword generation algorithm with balanced difficulty curves. 50% reduction in app load times via Unity Profiler-guided optimizations. 98%+ crash-free rate.</p>
+                        <p class="project-desc">Co-developed and shipped a mobile word puzzle game with grid-based crossword algorithms. Contributed gameplay systems, C# optimization, draw-call reduction, and memory profiling across mobile devices.</p>
                         <div class="project-links">
                             <a href="https://play.google.com/store/apps/details?id=com.wordgame.zen.crossword.free.word.puzzle.wow" class="project-link" target="_blank">
                                 <i class="fa-brands fa-google-play"></i> Play Store
@@ -698,7 +726,7 @@
                             <span class="tag">NFT</span>
                         </div>
                         <div class="project-title">Ridge Valley</div>
-                        <p class="project-desc">Web3 driving game inspired by Hill Climb Racing. Integrated Polygon wallet, NFT wardrobe system, and ERC-20 token-earning mechanics. Cross-platform: Web, Android, iOS.</p>
+                        <p class="project-desc">Web3-enabled 3D driving game inspired by Hill Climb Racing, with NFT-driven wardrobe systems and token-earning mechanics. Built alongside a custom Unity plugin for Polygon wallet integration and in-game transactions.</p>
                         <div class="project-links">
                             <a href="https://hk6848.wixsite.com/portfolio/portfolio-collections/my-portfolio/ridge-valley" class="project-link" target="_blank">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
@@ -721,7 +749,7 @@
                             <span class="tag">Play-to-Earn</span>
                         </div>
                         <div class="project-title">Krypto Klash</div>
-                        <p class="project-desc">Web3-based third-person shooter with NFT-driven wardrobe system and ERC-20 token-earning mechanics. Custom Polygon blockchain integration for in-game asset ownership.</p>
+                        <p class="project-desc">Web3-based third-person shooter with custom Polygon blockchain integration for in-game asset ownership and transactions.</p>
                         <div class="project-links">
                             <a href="https://hk6848.wixsite.com/portfolio/portfolio-collections/my-portfolio/krypto-klash" class="project-link" target="_blank">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
@@ -803,6 +831,20 @@
 
     <div class="divider"></div>
 
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="section-inner">
+            <div class="section-label">Education</div>
+            <h2 class="section-title">Academic Background</h2>
+            <div class="exp-item">
+                <h3 class="exp-company">Bachelor of Technology in Computer Science</h3>
+                <p class="hero-bio">Swami Keshvanand Institute of Technology, Management &amp; Gramothan · 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
     <!-- CONTACT -->
     <section id="contact">
         <div class="section-inner">
@@ -811,8 +853,9 @@
                     <div class="section-label">Get in Touch</div>
                     <h2>Let's Build<br>Something.</h2>
                     <p style="margin-top: 1rem;">
-                        Open to senior Unity roles, contract projects, and interesting collaborations in mobile gaming,
-                        Web3, or multiplayer systems. If you're building something ambitious — let's talk.
+                        Seeking Unity game development opportunities with a mobile gaming team.
+                        I bring end-to-end ownership, a shipping mindset, and experience in casual games,
+                        multiplayer systems, native plugins, and live game operations. Let's talk about your team.
                     </p>
                     <div style="margin-top: 2rem; display: flex; gap: 1.2rem;">
                         <a href="https://x.com/iharshit17" target="_blank" style="color: var(--muted); font-size: 1.2rem; text-decoration: none; transition: color 0.2s;">
